@@ -1,0 +1,11 @@
+# reporter: "TAP"
+require: "ts-node/register"
+ui: bdd
+color: true
+inline-diffs: true
+full-trace: true
+spec: ./test/**/*.ts
+watch: false
+watch-files:
+  - "src/**/*.ts"
+timeout: false
