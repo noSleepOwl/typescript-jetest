@@ -10,6 +10,25 @@
 			],
 			"group": "build",
 			"label": "tsc: 监视 - tsconfig.json"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "build-task"
+		},
+		{
+			"type": "shell",
+			"command": [
+				"clear"
+			],
+			"label": "clear"
 		}
 	]
 }

@@ -7,48 +7,18 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Mocha Tests",
-            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "name": "单元测试",
+            "outFiles": [
+                "./dist/**/*"
+            ],
+            // "trace": "verbose",
             "args": [
-                "--timeout",
-                "999999"
+                "./node_modules/jest/bin/jest.js"
             ],
             "console": "integratedTerminal",
-            "internalConsoleOptions": "openOnFirstSessionStart"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Debug Nest Framework",
-            "args": [
-                "${workspaceFolder}/src/main.ts"
-            ],
-            "runtimeArgs": [
-                "--nolazy",
-                "-r",
-                "ts-node/register"
-            ],
-            "sourceMaps": true,
-            "cwd": "${workspaceFolder}",
             "protocol": "inspector",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "调试当前文件",
-            "args": [
-                "${workspaceFolder}/${relativeFile}"
-            ],
-            "runtimeArgs": [
-                "--nolazy",
-                "-r",
-                "ts-node/register"
-            ],
-            "sourceMaps": true,
             "cwd": "${workspaceFolder}",
-            "protocol": "inspector",
-            "console": "internalConsole",
+            "internalConsoleOptions": "neverOpen"
         }
     ]
 }
