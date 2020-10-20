@@ -5,6 +5,24 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Current TS File",
+            "type": "node",
+            "request": "launch",
+            "args": [
+                "${file}" // 入口文件
+            ],
+            "runtimeArgs": [
+                "--nolazy",
+                "-r",
+                "ts-node/register"
+            ],
+            "sourceMaps": true,
+            "cwd": "${workspaceRoot}",
+            "protocol": "inspector",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "单元测试",
@@ -13,7 +31,9 @@
             ],
             // "trace": "verbose",
             "args": [
-                "./node_modules/jest/bin/jest.js"
+                "./node_modules/jest/bin/jest.js",
+                "--runInBand",
+                "--detectOpenHandles"
             ],
             "console": "integratedTerminal",
             "protocol": "inspector",
