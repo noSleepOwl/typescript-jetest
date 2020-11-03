@@ -1,15 +1,6 @@
-import {databases} from '@M/data'
+import {eachFolder} from "@M/file";
 
-import baseModelBase = databases.baseModelBase;
-/*
 
-baseModelBase.insertWeChatConfig({
-    cacheBases: 'D:\\soft-cache\\wechat',
-    userName: ['shigongwen'],
-    fileStorage: 'FileStorage',
-    file: 'File'
+eachFolder("F:\\book").forEach(res => {
+    console.log(res.path, res.md5)
 })
-
-const res = baseModelBase.addWeChatUser('测试')
-console.log(res)
-*/

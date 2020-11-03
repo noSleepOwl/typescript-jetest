@@ -3,15 +3,16 @@ import {createHash} from "crypto";
 
 /**
  * 获取文件has
- * @param buffer 文件buffer
+ * @param file 文件路径或者数据
  */
-function fileHash(file: Buffer | string): string {
-    if (typeof file === 'string') {
-
-    }
-    const buffer = readFileSync(file)
+export function fileHash(file: Buffer | string): string {
     const fsHash = createHash('md5')
-    fsHash.update(buffer);
+    if (typeof file === 'string') {
+        const buffer = readFileSync(file)
+        fsHash.update(buffer);
+    } else {
+        fsHash.update(file)
+    }
     return fsHash.digest('hex');
 }
 

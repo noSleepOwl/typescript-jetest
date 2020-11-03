@@ -3,6 +3,7 @@
  */
 export interface File {
     path: string;
-    type: string
+    type?: string;
+    md5: string;
 }
 
