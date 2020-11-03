@@ -1,0 +1,13 @@
+{
+  "configs": {
+    "weChat": {
+      "cacheBases": "D:\\soft-cache\\wechat",
+      "userName": [
+        "shigongwen",
+        "测试"
+      ],
+      "fileStorage": "FileStorage",
+      "file": "File"
+    }
+  }
+}

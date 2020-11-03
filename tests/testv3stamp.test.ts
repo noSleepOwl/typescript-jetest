@@ -1,4 +1,4 @@
-import {genUrl} from "../src/Utils";
+import {genUrl} from "../src/utils/Utils";
 import request from "supertest";
 
 const BASE_URL = genUrl({

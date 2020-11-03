@@ -1,4 +1,4 @@
-import {genUrl} from '@M/Utils'
+import {genUrl} from '@M/utils'
 import {Response} from 'superagent'
 import request from 'supertest'
 
@@ -11,6 +11,15 @@ let baseUrl = genUrl({
 const q = request(baseUrl);
 
 type CallbackHandler = (err: any, res: Response) => void;
+
+
+test("/version/getVersion", done => {
+    q.post("/version/getVersion")
+        .end((err, res) => {
+            console.log(err)
+            console.log(res.text)
+        })
+})
 
 describe('API请求测试', function () {
     function requestPost(path: string) {

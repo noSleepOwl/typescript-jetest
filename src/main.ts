@@ -1,5 +1,15 @@
-import {genUrl} from "@M/Utils"
+import {databases} from '@M/data'
 
-console.log("hello world")
+import baseModelBase = databases.baseModelBase;
+/*
 
-console.log(genUrl())
+baseModelBase.insertWeChatConfig({
+    cacheBases: 'D:\\soft-cache\\wechat',
+    userName: ['shigongwen'],
+    fileStorage: 'FileStorage',
+    file: 'File'
+})
+
+const res = baseModelBase.addWeChatUser('测试')
+console.log(res)
+*/

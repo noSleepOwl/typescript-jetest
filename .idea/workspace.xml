@@ -36,25 +36,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d00b9d4-8ba1-4f1a-9bc5-df5f10526c1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/typescript-jetest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/testFileApi.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/testModule.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/testv3stamp.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/FileControl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/file-loader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mq/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/FileUtil.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/log4jsConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/DocModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/DocSpaceResult.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/model/BaseModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/model/FileModels.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/model/SettingModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/example.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/HttpUtils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doc/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/doc/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testAPI.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testAPI.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testModule.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testModule.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testv3stamp.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testv3stamp.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-elastic-dash-board-control" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -93,7 +95,38 @@
     <property name="ts.external.directory.path" value="D:\work\project\PRO_TEST\typescript-jetest\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.hello world ...">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\project\PRO_TEST\typescript-jetest\src\utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.main">
+    <configuration name="API请求测试" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/testAPI.test.ts" />
+      <test-names>
+        <test-name value="API请求测试" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="/version/getVersion" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/testAPI.test.ts" />
+      <test-names>
+        <test-name value="/version/getVersion" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="hello world ..." type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -105,16 +138,6 @@
       <test-names>
         <test-name value="hello world ..." />
       </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="fileRun" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="fileRun" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
       <method v="2" />
     </configuration>
     <configuration name="main" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -138,17 +161,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.fileRun" />
+      <item itemvalue="Jest.hello world ..." />
+      <item itemvalue="Jest.API请求测试" />
+      <item itemvalue="Jest./version/getVersion" />
       <item itemvalue="npm.test" />
       <item itemvalue="npm.main" />
-      <item itemvalue="Jest.hello world ..." />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.main" />
+        <item itemvalue="Jest./version/getVersion" />
+        <item itemvalue="Jest.API请求测试" />
         <item itemvalue="Jest.hello world ..." />
         <item itemvalue="npm.test" />
-        <item itemvalue="npm.main" />
-        <item itemvalue="npm.fileRun" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +187,13 @@
       <updated>1602740277737</updated>
       <workItem from="1602740278791" duration="17646000" />
       <workItem from="1602815603879" duration="7031000" />
-      <workItem from="1603076128969" duration="8688000" />
+      <workItem from="1603076128969" duration="12355000" />
+      <workItem from="1603256277225" duration="8942000" />
+      <workItem from="1603879577630" duration="159000" />
+      <workItem from="1603946580648" duration="2598000" />
+      <workItem from="1604033938766" duration="2946000" />
+      <workItem from="1604292458480" duration="7179000" />
+      <workItem from="1604378446608" duration="11283000" />
     </task>
     <servers />
   </component>
@@ -185,90 +216,94 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" width="1092" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603170742409">
+    <state x="414" y="174" width="1092" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604294119566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" width="1092" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603170742409" />
+    <state x="414" y="174" width="1092" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604294119566" />
+    <state x="677" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604379977467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="320" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604379977467" />
     <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602779213829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602779213829" />
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1602826424303">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1604380528122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602826424303" />
-    <state x="715" y="221" key="#xdebugger.evaluate" timestamp="1602749070521">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604380528122" />
+    <state x="806" y="360" width="490" height="490" key="#xdebugger.evaluate" timestamp="1604294050997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="221" key="#xdebugger.evaluate/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602749070521" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1602774239893">
+    <state x="806" y="360" width="490" height="490" key="#xdebugger.evaluate/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604294050997" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1604302409723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602774239893" />
-    <state width="1899" height="374" key="GridCell.Tab.0.bottom" timestamp="1603171148249">
+    <state x="740" y="274" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604302409723" />
+    <state width="1899" height="297" key="GridCell.Tab.0.bottom" timestamp="1604396743757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="374" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603171148249" />
-    <state width="1899" height="374" key="GridCell.Tab.0.center" timestamp="1603171148249">
+    <state width="1899" height="297" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604396743757" />
+    <state width="1899" height="297" key="GridCell.Tab.0.center" timestamp="1604396743757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="374" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603171148249" />
-    <state width="1899" height="374" key="GridCell.Tab.0.left" timestamp="1603171148249">
+    <state width="1899" height="297" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604396743757" />
+    <state width="1899" height="297" key="GridCell.Tab.0.left" timestamp="1604396743757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="374" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603171148249" />
-    <state width="1899" height="374" key="GridCell.Tab.0.right" timestamp="1603171148249">
+    <state width="1899" height="297" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604396743757" />
+    <state width="1899" height="297" key="GridCell.Tab.0.right" timestamp="1604396743757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="374" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603171148249" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1603105015423">
+    <state width="1899" height="297" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604396743757" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015423" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1603105015423">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015423" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1603105015423">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015423" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1603105015423">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015423" />
-    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1603105015423">
+    <state width="1899" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015423" />
-    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1603105015423">
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015423" />
-    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1603105015423">
+    <state width="1899" height="348" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015423" />
-    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1603105015423">
+    <state width="1899" height="348" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015423" />
-    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1603105015424">
+    <state width="1899" height="348" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015424" />
-    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1603105015424">
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015424" />
-    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1603105015423">
+    <state width="1899" height="348" key="GridCell.Tab.3.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015423" />
-    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1603105015424">
+    <state width="1899" height="348" key="GridCell.Tab.3.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
+    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1604388226816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603105015424" />
+    <state width="1899" height="348" key="GridCell.Tab.3.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604388226816" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1602774606191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -277,6 +312,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="600" height="428" key="javadoc.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602826510119" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604294041963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604294041963" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -285,30 +324,6 @@
           <url>file://$PROJECT_DIR$/tests/testAPI.test.ts</url>
           <line>32</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/doc/index.ts</url>
-          <line>19</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/doc/index.ts</url>
-          <line>16</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/doc/index.ts</url>
-          <line>27</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/doc/index.ts</url>
-          <line>25</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
